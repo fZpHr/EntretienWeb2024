@@ -9,3 +9,4 @@ serde_json = { workspace = true }
 strum = { workspace = true }
 utoipa = { workspace = true }
 derive_more = { workspace = true }
+time = { version = "0.3.36", features = ["serde"] }
