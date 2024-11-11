@@ -7,7 +7,6 @@ pub fn Faq() -> Element {
         div {
             class: "min-h-screen bg-slate-100 py-8 relative",
             
-            // Bouton retour
             div {
                 class: "absolute top-4 left-4",
                 Link {
@@ -23,7 +22,6 @@ pub fn Faq() -> Element {
 
             div {
                 class: "container mx-auto px-4",
-                // En-tête
                 div {
                     class: "text-center mb-8",
                     h1 {
@@ -36,7 +34,6 @@ pub fn Faq() -> Element {
                     }
                 }
 
-                // Questions/Réponses
                 div {
                     class: "max-w-3xl mx-auto space-y-4",
 
@@ -56,11 +53,11 @@ pub fn Faq() -> Element {
                         class: "bg-white rounded-lg shadow-md border border-slate-200 p-4 hover:shadow-lg transition-shadow duration-300",
                         h2 {
                             class: "text-lg font-semibold text-slate-800 mb-2",
-                            "🤖 Comment avez-vous développé ce projet ?"
+                            "🤖 Quelle a été l'approche pour ce projet ?"
                         }
                         p {
                             class: "text-slate-600",
-                            "J'ai utilisé une IA comme assistant pour m'aider à comprendre et écrire le code Rust. Elle m'a guidé dans l'apprentissage tout en m'assurant de bien comprendre les concepts, du au fait que je n'ai jamais utilisé Dioxus, Axum ou Tailwind CSS avant."
+                            "J'ai utilisé une IA comme assistant pour m'aider à comprendre et écrire l'architecture Rust. Elle m'a guidé dans l'apprentissage tout en m'assurant de bien comprendre les concepts (cependant, la limite de temps ne m'a pas permis de comprendre toutes les notions en profondeur...)."
                         }
                     }
 
