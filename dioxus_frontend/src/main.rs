@@ -25,7 +25,7 @@ fn main() {
 
 
 fn App() -> Element {
-    let css = include_str!("../dist/tailwind.css");
+    let css = include_str!("../tailwind.css");
     rsx! {
         style { "{css}" }
         Router::<Route> {}
