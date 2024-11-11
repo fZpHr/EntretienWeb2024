@@ -38,5 +38,8 @@ Vous devez travailler seul, sans l'aide de camarades.
 - [Dioxus](https://dioxuslabs.com/). There's everything you need here.
 
 # Lancement du backend
-
+Prerequis : 
+```
+cargo install cargo-watch 
+```
 Depuis le dossier `axum_backend`:  `cargo watch -x run`
